@@ -1,0 +1,6 @@
+exhaustive 5 <= d <= 20000: 6077 fundamental d, mismatches 0
+random 300 fundamental d in [100000, 20000000000]: mismatches 0
+list ../computations/mj_h200_list.txt: 300 random entries, mismatches 0
+d ~ 2.6e14, N = 1000: 20 fundamental d, 27/20 ms each (all h > 1000)
+full prime loop at d = 260000000000003 (p <= 9309493): 183 ms
+POSTPROC TEST PASS

@@ -1,0 +1,4 @@
+start: 2026年 10月  8日 木曜日 14:36:42 JST
+qsieve: N = 200, d in [1099511627776, 2560000000000000], 12 processes, log interval 1200 s, 8004 work units, outdir runs/main200
+qsieve: all workers finished in 17527.7 s, failed workers: 0
+end: 2026年 10月  8日 木曜日 19:28:50 JST

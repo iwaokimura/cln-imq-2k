@@ -1,0 +1,19 @@
+# kernel replay, 2026-10-13: lake env lean --run B4Replay.lean (Lean 4.34.1)
+closure: 123010 names, 123010 constants
+axioms in closure: #[propext, Classical.choice, Quot.sound]
+kernel replay from empty environment: OK (491630 ms)
+B4.ClassNumber.classNumber_gt_100: replayed, type unchanged
+B4.ClassNumber.classNumber_gt_200: replayed, type unchanged
+B4.ClassNumber.classNumber_gt_500: replayed, type unchanged
+B4.ClassNumber.classNumber_gt_1000: replayed, type unchanged
+B4.ClassNumber.classNumber_gt_2000: replayed, type unchanged
+B4.Cert.zero_gap_all: replayed, type unchanged
+B4.Chi8.re_LFunction_pos: replayed, type unchanged
+B4.Chi8.zero_gap_all: replayed, type unchanged
+B4.Chi8.zero_gap_large: replayed, type unchanged
+REPLAY DONE
+
+real	8m25.950s
+user	8m21.737s
+sys	0m4.215s
+exit=0

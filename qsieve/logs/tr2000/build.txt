@@ -1,0 +1,4 @@
+9727fb3f1b2e49602b788daae5f2804c  qsieve
+cc322d85e6b481caa46569efcfcbcfe4  ~/openai-math/notes/projects/effective-siegel/qsieve/qsieve.c
+self-test (bit-parallel, implementations SIMD=AVX-512 / original / division-free): 9199491 (d, sets) cases, 0 mismatches
+self-test: 666511 valid d tested, 0 symbol mismatches -> PASS

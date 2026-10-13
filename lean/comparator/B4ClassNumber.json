@@ -1,0 +1,18 @@
+{
+  "challenge_module": "Challenge.B4ClassNumber",
+  "solution_module": "B4ClassNumber",
+  "theorem_names": [
+    "B4.ClassNumber.classNumber_gt_100",
+    "B4.ClassNumber.classNumber_gt_200",
+    "B4.ClassNumber.classNumber_gt_500",
+    "B4.ClassNumber.classNumber_gt_1000",
+    "B4.ClassNumber.classNumber_gt_2000"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": false
+}

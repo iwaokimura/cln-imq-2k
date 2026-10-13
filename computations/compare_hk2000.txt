@@ -1,0 +1,6 @@
+downloaded 2026-10-10T16:33Z; sha256:
+8b9551b8a344c56d9dced5d79013265044c6210798dff49cb09005e6d198ecb3  cgo.txt
+
+[HK] F(h) for odd h <= 1999 against h2000_table.txt
+  odd h compared: 1000, differences: 0, total fields ours 1712058, HK 1712058
+HK2000 COMPARE PASS

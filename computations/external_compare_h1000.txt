@@ -1,0 +1,14 @@
+downloaded 2026-10-09T03:26Z; sha256:
+8b9551b8a344c56d9dced5d79013265044c6210798dff49cb09005e6d198ecb3  cgo.txt
+6bc93565ba03fc1dc04885e348a47a071a336787ce6382748fc9f30418825acc  b046125.txt
+477d905450fa204626e6c76890df2a96bedac203637fccebf1b7706244170e4a  b038552.txt
+
+[HK] F(h) for odd h <= 999 against h1000_table.txt
+  odd h compared: 500, differences: 0, total fields ours 465816, HK 465816
+
+[OEIS A046125] number of fields for h <= 100
+  h compared: 100, differences: 0
+
+[OEIS A038552] largest squarefree k (k = |d| for odd d, |d|/4 otherwise) for h <= 100
+  h compared: 100, differences: 0
+EXTERNAL COMPARE DONE

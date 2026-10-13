@@ -1,0 +1,4 @@
+2026-10-09 19:38:56 worker 7 start: units 0/166 (0.00%), d processed 0, bound 0, exact 0, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 0 s, ETA -1 s
+2026-10-09 19:48:56 worker 7 progress: units 50/166 (30.12%), d processed 103869275702, bound 135806685, exact 0, residual 0, classes 751016228 (with >= 2 d: 751016228), bound-check failures 0, elapsed 600 s, ETA 1392 s
+2026-10-09 19:58:56 worker 7 progress: units 109/166 (65.66%), d processed 257249927408, bound 305235271, exact 0, residual 0, classes 1583793584 (with >= 2 d: 1583793584), bound-check failures 0, elapsed 1200 s, ETA 628 s
+2026-10-09 20:07:32 worker 7 finished: units 166/166 (100.00%), d processed 460732714652, bound 517460438, exact 0, residual 0, classes 2403917912 (with >= 2 d: 2403917912), bound-check failures 0, elapsed 1717 s, ETA 0 s

@@ -1,0 +1,5 @@
+start: 2026年 10月  8日 木曜日 20:14:44 JST
+qsieve: N = 2000, d in [268435456, 1610612735], 12 processes, log interval 300 s, 288 work units, outdir ~/Documents/openai-math/notes/projects/effective-siegel/qsieve/runs/reg2000
+qsieve: all workers finished in 540.6 s, failed workers: 0
+end: 2026年 10月  8日 木曜日 20:23:46 JST
+POSTPROC DONE: residual 821461, fundamental 773558, found h <= 2000: 537404

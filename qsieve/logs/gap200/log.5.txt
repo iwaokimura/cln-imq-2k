@@ -1,0 +1,3 @@
+2026-10-08 19:56:23 worker 5 start: units 0/175 (0.00%), d processed 0, bound 0, exact 0, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 0 s, ETA -1 s
+2026-10-08 20:06:23 worker 5 progress: units 63/175 (36.00%), d processed 7294360702, bound 13909559, exact 1207736, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 600 s, ETA 1067 s
+2026-10-08 20:13:06 worker 5 finished: units 175/175 (100.00%), d processed 9672052793, bound 31613389, exact 1207736, residual 0, classes 782635668 (with >= 2 d: 693143781), bound-check failures 0, elapsed 1003 s, ETA 0 s

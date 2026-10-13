@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge.B4ZeroGap",
+  "solution_module": "B4Chi8",
+  "theorem_names": [
+    "B4.Chi8.re_LFunction_pos",
+    "B4.Chi8.zero_gap_all",
+    "B4.Chi8.zero_gap_large"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,384 @@
+# Comparator runs, 2026-10-13, in this project (comparator d03acab, lean4export 076e8e5, landrun v0.1.18, nanoda_lib 3a24072).
+# Long 'Exporting' lines and build progress lines are omitted.
+
+## B4ZeroGap_nanoda
+# 2026年 10月 13日 火曜日 11:57:01 UTC  config B4ZeroGap_nanoda  landrun landrun version 0.1.18  kernel 7.0.0-34-generic
+Running as unit: run-u177.service; invocation ID: 8cad0e3c15934caca92a09bb0386a2a0
+Building Challenge.B4ZeroGap
+Build completed successfully (8924 jobs).
+Building B4Chi8
+ℹ [9111/9289] Replayed B4ExplicitBias
+info: B4ExplicitBias.lean:111:0: 'B4.explicit_split_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9114/9289] Replayed B4PrimeMass
+info: B4PrimeMass.lean:194:0: 'B4.mertens_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:195:0: 'B4.ramified_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:196:0: 'B4.total_mass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9258/9343] Replayed B4LSeriesCont
+info: B4LSeriesCont.lean:119:0: 'B4.differentiableOn_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:273:0: 'B4.LFunction_eq_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:274:0: 'B4.LFunction_sub_partial_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:360:0: 'B4.LFunction_sub_partial_le_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9336/9343] Replayed B4MasterAlgebra
+info: B4MasterAlgebra.lean:91:0: 'B4.master_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9337/9343] Replayed B4ZeroGap
+info: B4ZeroGap.lean:165:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_explicit_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9338/9343] Replayed B4Analytic
+info: B4Analytic.lean:312:0: 'B4.gamma_term_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Analytic.lean:313:0: 'B4.neg_logDeriv_zeta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9339/9343] Replayed B4ElementaryGap
+info: B4ElementaryGap.lean:72:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_elementary_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9340/9343] Replayed B4Interval
+info: B4Interval.lean:194:0: 'B4.core_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Interval.lean:234:0: 'B4.interval_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9341/9343] Replayed B4Chain
+info: B4Chain.lean:167:0: 'B4.gapFrom_join' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:168:0: 'B4.gapOn_of_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:169:0: 'B4.tail_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9342/9343] Replayed B4Certificates
+info: B4Certificates.lean:3178:0: 'B4.Cert.zero_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3179:0: 'B4.Cert.zero_gap_for_h1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3180:0: 'B4.Cert.zero_gap_for_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9343/9343] Replayed B4Chi8
+info: B4Chi8.lean:236:0: 'B4.Chi8.re_LFunction_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:237:0: 'B4.Chi8.zero_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:238:0: 'B4.Chi8.zero_gap_for_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:239:0: 'B4.Chi8.zero_gap_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9343 jobs).
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 12min 47.954s
+CPU time consumed: 18min 7.420s
+Memory peak: 256.0K
+Memory swap peak: 0B
+comparator exit: 0
+
+## B4ClassNumber_nanoda
+# 2026年 10月 13日 火曜日 12:09:49 UTC  config B4ClassNumber_nanoda  landrun landrun version 0.1.18  kernel 7.0.0-34-generic
+Running as unit: run-u178.service; invocation ID: 3f62783cff134113b6bfbb328d8cf8c3
+Building Challenge.B4ClassNumber
+Build completed successfully (8924 jobs).
+Building B4ClassNumber
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:5:0: 'Mathlib.Data.Finite.Vector' has been deprecated: please replace this import by
+
+import Mathlib.Data.Fintype.Vector
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:849:27: `Ideal.inertiaDeg'` has been deprecated: Use `Ideal.inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:857:33: `Ideal.inertiaDeg'_eq_inertiaDeg` has been deprecated: Use `inertiaDeg_eq_of_isMaximal` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:874:29: `Ideal.inertiaDeg'` has been deprecated: Use `Ideal.inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:885:27: `Ideal.inertiaDeg'` has been deprecated: Use `Ideal.inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:894:33: `Ideal.inertiaDeg'_eq_inertiaDeg` has been deprecated: Use `inertiaDeg_eq_of_isMaximal` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:924:29: `Ideal.inertiaDeg'` has been deprecated: Use `Ideal.inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:963:12: `Ideal.absNorm_eq_pow_inertiaDeg'` has been deprecated: Use `Ideal.natAbs_pow_inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:996:12: `Ideal.absNorm_eq_pow_inertiaDeg'` has been deprecated: Use `Ideal.natAbs_pow_inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/NumberFieldEulerProduct.lean:40:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: vendor/AINTLIB/BernoulliRegular/NumberFieldEulerProduct.lean:277:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: vendor/AINTLIB/BernoulliRegular/NumberFieldEulerProduct.lean:318:7: `Ideal.finite_setOf_absNorm_eq` has been deprecated: Use `Ideal.finite_setOfPred_absNorm_eq` instead
+warning: vendor/AINTLIB/BernoulliRegular/NumberFieldEulerProduct.lean:326:64: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+ℹ [8994/9307] Replayed B4ZetaEM
+info: B4ZetaEM.lean:73:0: 'B4.zeta_EM_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ZetaEM.lean:168:0: 'B4.zeta_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ZetaEM.lean:169:0: 'B4.zeta_EM_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9184/9307] Replayed B4ExplicitBias
+info: B4ExplicitBias.lean:111:0: 'B4.explicit_split_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9186/9307] Replayed B4PrimeMass
+info: B4PrimeMass.lean:194:0: 'B4.mertens_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:195:0: 'B4.ramified_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:196:0: 'B4.total_mass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+warning: B4QuadSplit.lean:77:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: B4QuadSplit.lean:211:0: automatically included section variable(s) unused in theorem `B4.CNF.absNorm_prod_of_subset`:
+  hp
+  hS
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hp hS in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: B4QuadZeta.lean:100:67: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:183:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:183:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: B4QuadZeta.lean:187:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: B4QuadZeta.lean:187:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:261:26: This simp argument is unused:
+  multA_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [LSeries.term, BernoulliRegular.idealNormMultiplicity_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [9332/9422] Replayed B4LSeriesCont
+info: B4LSeriesCont.lean:119:0: 'B4.differentiableOn_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:273:0: 'B4.LFunction_eq_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:274:0: 'B4.LFunction_sub_partial_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:360:0: 'B4.LFunction_sub_partial_le_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9333/9422] Replayed B4Sign
+info: B4Sign.lean:87:0: 'B4.LFunction_nonneg_of_zero_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9334/9422] Replayed B4Hyperbola
+info: B4Hyperbola.lean:133:0: 'B4.hyperbola' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Hyperbola.lean:134:0: 'B4.one_le_re_S' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9335/9422] Replayed B4L1
+info: B4L1.lean:133:0: 'B4.A_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4L1.lean:293:0: 'B4.B_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4L1.lean:294:0: 'B4.L1_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9413/9422] Replayed B4MasterAlgebra
+info: B4MasterAlgebra.lean:91:0: 'B4.master_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9414/9422] Replayed B4ZeroGap
+info: B4ZeroGap.lean:165:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_explicit_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9415/9422] Replayed B4Analytic
+info: B4Analytic.lean:312:0: 'B4.gamma_term_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Analytic.lean:313:0: 'B4.neg_logDeriv_zeta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9416/9422] Replayed B4ElementaryGap
+info: B4ElementaryGap.lean:72:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_elementary_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9417/9422] Replayed B4Interval
+info: B4Interval.lean:194:0: 'B4.core_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Interval.lean:234:0: 'B4.interval_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9418/9422] Replayed B4Chain
+info: B4Chain.lean:167:0: 'B4.gapFrom_join' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:168:0: 'B4.gapOn_of_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:169:0: 'B4.tail_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9419/9422] Replayed B4ClassBound
+info: B4ClassBound.lean:304:0: 'B4.h_bound_of_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9420/9422] Replayed B4Certificates
+info: B4Certificates.lean:3178:0: 'B4.Cert.zero_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3179:0: 'B4.Cert.zero_gap_for_h1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3180:0: 'B4.Cert.zero_gap_for_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9421/9422] Replayed B4ClassCert
+info: B4ClassCert.lean:86:0: 'B4.ClassCert.class_bound_h100' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:154:0: 'B4.ClassCert.class_bound_h200' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:222:0: 'B4.ClassCert.class_bound_h500' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:290:0: 'B4.ClassCert.class_bound_h1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:358:0: 'B4.ClassCert.class_bound_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+warning: B4ClassNumber.lean:227:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: B4ClassNumber.lean:261:0: 'B4.ClassNumber.classNumber_gt_100' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:262:0: 'B4.ClassNumber.classNumber_gt_200' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:263:0: 'B4.ClassNumber.classNumber_gt_500' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:264:0: 'B4.ClassNumber.classNumber_gt_1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:265:0: 'B4.ClassNumber.classNumber_gt_2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9422 jobs).
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 10min 56.735s
+CPU time consumed: 15min 13.721s
+Memory peak: 256.0K
+Memory swap peak: 0B
+comparator exit: 0
+
+## B4ZeroGap, negative test: 5811 changed to 5812 in zero_gap_all of the challenge (then restored)
+# 2026年 10月 13日 火曜日 12:21:04 UTC  config B4ZeroGap  landrun landrun version 0.1.18  kernel 7.0.0-34-generic
+Running as unit: run-u179.service; invocation ID: 8d08c1677e664661a7efa12218973a44
+Building Challenge.B4ZeroGap
+Build completed successfully (8924 jobs).
+Building B4Chi8
+ℹ [9111/9300] Replayed B4ExplicitBias
+info: B4ExplicitBias.lean:111:0: 'B4.explicit_split_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9114/9300] Replayed B4PrimeMass
+info: B4PrimeMass.lean:194:0: 'B4.mertens_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:195:0: 'B4.ramified_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:196:0: 'B4.total_mass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9258/9343] Replayed B4LSeriesCont
+info: B4LSeriesCont.lean:119:0: 'B4.differentiableOn_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:273:0: 'B4.LFunction_eq_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:274:0: 'B4.LFunction_sub_partial_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:360:0: 'B4.LFunction_sub_partial_le_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9284/9343] Replayed B4MasterAlgebra
+info: B4MasterAlgebra.lean:91:0: 'B4.master_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9285/9343] Replayed B4Analytic
+info: B4Analytic.lean:312:0: 'B4.gamma_term_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Analytic.lean:313:0: 'B4.neg_logDeriv_zeta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9338/9343] Replayed B4ZeroGap
+info: B4ZeroGap.lean:165:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_explicit_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9339/9343] Replayed B4ElementaryGap
+info: B4ElementaryGap.lean:72:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_elementary_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9340/9343] Replayed B4Interval
+info: B4Interval.lean:194:0: 'B4.core_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Interval.lean:234:0: 'B4.interval_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9341/9343] Replayed B4Chain
+info: B4Chain.lean:167:0: 'B4.gapFrom_join' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:168:0: 'B4.gapOn_of_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:169:0: 'B4.tail_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9342/9343] Replayed B4Certificates
+info: B4Certificates.lean:3178:0: 'B4.Cert.zero_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3179:0: 'B4.Cert.zero_gap_for_h1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3180:0: 'B4.Cert.zero_gap_for_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9343/9343] Replayed B4Chi8
+info: B4Chi8.lean:236:0: 'B4.Chi8.re_LFunction_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:237:0: 'B4.Chi8.zero_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:238:0: 'B4.Chi8.zero_gap_for_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:239:0: 'B4.Chi8.zero_gap_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9343 jobs).
+uncaught exception: Challenge and solution theorem statement do not match: 'B4.Chi8.zero_gap_all'
+Finished with result: exit-code
+Main processes terminated with: code=exited/status=1
+Service runtime: 2min 1.371s
+CPU time consumed: 2min 10.034s
+Memory peak: 512.0K
+Memory swap peak: 0B
+comparator exit: 1
+
+## B4ClassNumber, negative test: T_1000 = 334757/10000 changed to 33 in classNumber_gt_1000 of the challenge (then restored)
+# 2026年 10月 13日 火曜日 12:23:06 UTC  config B4ClassNumber  landrun landrun version 0.1.18  kernel 7.0.0-34-generic
+Running as unit: run-u180.service; invocation ID: 6309062a95b74eeaa8fe64d4340153e1
+Building Challenge.B4ClassNumber
+Build completed successfully (8924 jobs).
+Building B4ClassNumber
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:5:0: 'Mathlib.Data.Finite.Vector' has been deprecated: please replace this import by
+
+import Mathlib.Data.Fintype.Vector
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:849:27: `Ideal.inertiaDeg'` has been deprecated: Use `Ideal.inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:857:33: `Ideal.inertiaDeg'_eq_inertiaDeg` has been deprecated: Use `inertiaDeg_eq_of_isMaximal` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:874:29: `Ideal.inertiaDeg'` has been deprecated: Use `Ideal.inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:885:27: `Ideal.inertiaDeg'` has been deprecated: Use `Ideal.inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:894:33: `Ideal.inertiaDeg'_eq_inertiaDeg` has been deprecated: Use `inertiaDeg_eq_of_isMaximal` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:924:29: `Ideal.inertiaDeg'` has been deprecated: Use `Ideal.inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:963:12: `Ideal.absNorm_eq_pow_inertiaDeg'` has been deprecated: Use `Ideal.natAbs_pow_inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/ZetaFactorisation/Basic.lean:996:12: `Ideal.absNorm_eq_pow_inertiaDeg'` has been deprecated: Use `Ideal.natAbs_pow_inertiaDeg` instead.
+warning: vendor/AINTLIB/BernoulliRegular/NumberFieldEulerProduct.lean:40:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: vendor/AINTLIB/BernoulliRegular/NumberFieldEulerProduct.lean:277:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: vendor/AINTLIB/BernoulliRegular/NumberFieldEulerProduct.lean:318:7: `Ideal.finite_setOf_absNorm_eq` has been deprecated: Use `Ideal.finite_setOfPred_absNorm_eq` instead
+warning: vendor/AINTLIB/BernoulliRegular/NumberFieldEulerProduct.lean:326:64: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+ℹ [8994/9186] Replayed B4ZetaEM
+info: B4ZetaEM.lean:73:0: 'B4.zeta_EM_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ZetaEM.lean:168:0: 'B4.zeta_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ZetaEM.lean:169:0: 'B4.zeta_EM_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9185/9422] Replayed B4ExplicitBias
+info: B4ExplicitBias.lean:111:0: 'B4.explicit_split_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9187/9422] Replayed B4PrimeMass
+info: B4PrimeMass.lean:194:0: 'B4.mertens_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:195:0: 'B4.ramified_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:196:0: 'B4.total_mass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+warning: B4QuadSplit.lean:77:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: B4QuadSplit.lean:211:0: automatically included section variable(s) unused in theorem `B4.CNF.absNorm_prod_of_subset`:
+  hp
+  hS
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hp hS in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: B4QuadZeta.lean:100:67: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:183:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:183:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: B4QuadZeta.lean:187:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: B4QuadZeta.lean:187:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:261:26: This simp argument is unused:
+  multA_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [LSeries.term, BernoulliRegular.idealNormMultiplicity_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [9332/9422] Replayed B4LSeriesCont
+info: B4LSeriesCont.lean:119:0: 'B4.differentiableOn_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:273:0: 'B4.LFunction_eq_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:274:0: 'B4.LFunction_sub_partial_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:360:0: 'B4.LFunction_sub_partial_le_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9333/9422] Replayed B4Sign
+info: B4Sign.lean:87:0: 'B4.LFunction_nonneg_of_zero_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9334/9422] Replayed B4Hyperbola
+info: B4Hyperbola.lean:133:0: 'B4.hyperbola' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Hyperbola.lean:134:0: 'B4.one_le_re_S' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9335/9422] Replayed B4L1
+info: B4L1.lean:133:0: 'B4.A_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4L1.lean:293:0: 'B4.B_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4L1.lean:294:0: 'B4.L1_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9413/9422] Replayed B4MasterAlgebra
+info: B4MasterAlgebra.lean:91:0: 'B4.master_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9414/9422] Replayed B4ZeroGap
+info: B4ZeroGap.lean:165:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_explicit_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9415/9422] Replayed B4Analytic
+info: B4Analytic.lean:312:0: 'B4.gamma_term_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Analytic.lean:313:0: 'B4.neg_logDeriv_zeta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9416/9422] Replayed B4ElementaryGap
+info: B4ElementaryGap.lean:72:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_elementary_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9417/9422] Replayed B4Interval
+info: B4Interval.lean:194:0: 'B4.core_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Interval.lean:234:0: 'B4.interval_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9418/9422] Replayed B4Chain
+info: B4Chain.lean:167:0: 'B4.gapFrom_join' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:168:0: 'B4.gapOn_of_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:169:0: 'B4.tail_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9419/9422] Replayed B4ClassBound
+info: B4ClassBound.lean:304:0: 'B4.h_bound_of_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9420/9422] Replayed B4Certificates
+info: B4Certificates.lean:3178:0: 'B4.Cert.zero_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3179:0: 'B4.Cert.zero_gap_for_h1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3180:0: 'B4.Cert.zero_gap_for_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9421/9422] Replayed B4ClassCert
+info: B4ClassCert.lean:86:0: 'B4.ClassCert.class_bound_h100' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:154:0: 'B4.ClassCert.class_bound_h200' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:222:0: 'B4.ClassCert.class_bound_h500' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:290:0: 'B4.ClassCert.class_bound_h1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:358:0: 'B4.ClassCert.class_bound_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+warning: B4ClassNumber.lean:227:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: B4ClassNumber.lean:261:0: 'B4.ClassNumber.classNumber_gt_100' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:262:0: 'B4.ClassNumber.classNumber_gt_200' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:263:0: 'B4.ClassNumber.classNumber_gt_500' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:264:0: 'B4.ClassNumber.classNumber_gt_1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:265:0: 'B4.ClassNumber.classNumber_gt_2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9422 jobs).
+uncaught exception: Challenge and solution theorem statement do not match: 'B4.ClassNumber.classNumber_gt_1000'
+Finished with result: exit-code
+Main processes terminated with: code=exited/status=1
+Service runtime: 1min 51.313s
+CPU time consumed: 1min 59.125s
+Memory peak: 512.0K
+Memory swap peak: 0B
+comparator exit: 1

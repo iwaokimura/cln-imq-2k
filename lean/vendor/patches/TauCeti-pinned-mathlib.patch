@@ -1,0 +1,48 @@
+diff --git a/TauCeti/Algebra/Group/Subgroup/Map.lean b/TauCeti/Algebra/Group/Subgroup/Map.lean
+index 2445b1e7c..f42db94bf 100644
+--- a/TauCeti/Algebra/Group/Subgroup/Map.lean
++++ b/TauCeti/Algebra/Group/Subgroup/Map.lean
+@@ -124,7 +124,7 @@ theorem Subgroup.congrOfMapEq_trans (e : G ≃* H) {A : Subgroup G} {B : Subgrou
+     (h' : B.map (f : H →* K) = C) :
+     (Subgroup.congrOfMapEq e h).trans (Subgroup.congrOfMapEq f h') =
+       Subgroup.congrOfMapEq (e.trans f)
+-        (by rw [MulEquiv.toMonoidHom_trans, ← _root_.Subgroup.map_map, h, h']) :=
++        (by rw [MulEquiv.coe_monoidHom_trans, ← _root_.Subgroup.map_map, h, h']) :=
+   MulEquiv.ext fun _ => Subtype.ext (by simp)
+ 
+ /-- Restricting an isomorphism to subgroups commutes with the inclusions of the subgroups. This is
+@@ -332,7 +332,7 @@ theorem _root_.Subgroup.map_conj_map_conj (R : Subgroup G) (g h : G) :
+     (R.map (MulAut.conj g).toMonoidHom).map (MulAut.conj h).toMonoidHom =
+       R.map (MulAut.conj (h * g)).toMonoidHom := by
+   simp only [Subgroup.map_map, MulEquiv.toMonoidHom_eq_coe,
+-    ← MulEquiv.toMonoidHom_trans, ← MulAut.mul_def, ← map_mul]
++    ← MulEquiv.coe_monoidHom_trans, ← MulAut.mul_def, ← map_mul]
+ 
+ /-- The image of a subgroup in `G ⧸ N`, pushed forward along the map `G ⧸ N →* H ⧸ M` induced by
+ `f`, is the image in `H ⧸ M` of the image of the subgroup under `f`.
+diff --git a/TauCeti/NumberTheory/DirichletCharacter/Basic.lean b/TauCeti/NumberTheory/DirichletCharacter/Basic.lean
+index 53a7d5932..8d23c35c1 100644
+--- a/TauCeti/NumberTheory/DirichletCharacter/Basic.lean
++++ b/TauCeti/NumberTheory/DirichletCharacter/Basic.lean
+@@ -130,7 +130,7 @@ theorem exists_alt_unit_in_coset_with_char_separation {R : Type*} [CommMonoidWit
+     ∃ u' : (ZMod N)ˣ,
+       ZMod.unitsMap hd u' = ZMod.unitsMap hd u ∧ χ.toUnitHom u' ≠ χ.toUnitHom u := by
+   rw [factorsThrough_iff_ker_unitsMap hd] at h_not_fac
+-  obtain ⟨v, hv_ker, hv_chi⟩ := IsConcreteLE.not_le_iff_exists.mp h_not_fac
++  obtain ⟨v, hv_ker, hv_chi⟩ := SetLike.not_le_iff_exists.mp h_not_fac
+   have hv_ker' : ZMod.unitsMap hd v = 1 := MonoidHom.mem_ker.mp hv_ker
+   have hv_chi' : χ.toUnitHom v ≠ 1 := hv_chi ∘ MonoidHom.mem_ker.mpr
+   exact ⟨u * v, by rw [map_mul, hv_ker', mul_one],
+diff --git a/TauCeti/NumberTheory/NumberField/Quadratic/TotalRamification.lean b/TauCeti/NumberTheory/NumberField/Quadratic/TotalRamification.lean
+index decb394f1..da7aad155 100644
+--- a/TauCeti/NumberTheory/NumberField/Quadratic/TotalRamification.lean
++++ b/TauCeti/NumberTheory/NumberField/Quadratic/TotalRamification.lean
+@@ -87,7 +87,7 @@ private theorem totallyRamified_aux (hK : finrank ℚ K = 2) (hp : p.Prime)
+   have hx1 : (x : Ideal (𝓞 K)) = 𝔭 := by rw [hx]
+   -- `e(𝔭) ≥ 2`, since it is positive and not `1`.
+   have he : 2 ≤ 𝔭.ramificationIdx ℤ :=
+-    (Nat.two_le_iff _).mpr ⟨(Ideal.ramificationIdx_pos ℤ 𝔭).ne', hram⟩
++    (Nat.two_le_iff _).mpr ⟨(Ideal.ramificationIdx_pos (R := ℤ) (q := 𝔭)).ne', hram⟩
+   have hf0 : 1 ≤ 𝔭.inertiaDeg ℤ := Ideal.inertiaDeg_pos 𝔭 ℤ
+   -- The summand at `𝔭` is at least `2`, since `e(𝔭) ≥ 2` and `f(𝔭) ≥ 1`.
+   have htwo : 2 ≤ 𝔭.ramificationIdx ℤ * 𝔭.inertiaDeg ℤ :=

@@ -1,0 +1,6 @@
+.lake/
+*.olean
+*.ilean
+lake-packages/
+/lists/*.txt
+/computations/lean_grid_c.gp

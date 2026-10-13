@@ -1,0 +1,3 @@
+fundamental discriminants -d with d <= 2500000: 759927
+compared 100 rows; mismatches: 0
+REGRESSION OK

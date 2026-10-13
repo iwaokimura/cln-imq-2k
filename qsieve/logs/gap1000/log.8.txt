@@ -1,0 +1,12 @@
+2026-10-09 02:23:58 worker 8 start: units 0/185 (0.00%), d processed 0, bound 0, exact 0, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 0 s, ETA -1 s
+2026-10-09 02:33:59 worker 8 progress: units 23/185 (12.43%), d processed 195797727, bound 359932, exact 63779613, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 600 s, ETA 4229 s
+2026-10-09 02:43:59 worker 8 progress: units 32/185 (17.30%), d processed 526512251, bound 3016425, exact 136568352, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 1200 s, ETA 5738 s
+2026-10-09 02:53:59 worker 8 progress: units 39/185 (21.08%), d processed 984136214, bound 18374547, exact 203093147, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 1800 s, ETA 6740 s
+2026-10-09 03:03:58 worker 8 progress: units 43/185 (23.24%), d processed 1500321596, bound 31116917, exact 259464648, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 2400 s, ETA 7926 s
+2026-10-09 03:13:59 worker 8 progress: units 48/185 (25.95%), d processed 2034364538, bound 44218499, exact 317447091, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 3000 s, ETA 8563 s
+2026-10-09 03:23:59 worker 8 progress: units 51/185 (27.57%), d processed 2833093471, bound 67385807, exact 370690191, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 3600 s, ETA 9459 s
+2026-10-09 03:33:58 worker 8 progress: units 54/185 (29.19%), d processed 3629375729, bound 90472780, exact 423783021, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 4200 s, ETA 10189 s
+2026-10-09 03:43:58 worker 8 progress: units 60/185 (32.43%), d processed 6419096287, bound 261109320, exact 457802693, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 4800 s, ETA 10000 s
+2026-10-09 03:53:58 worker 8 progress: units 101/185 (54.59%), d processed 10059226300, bound 654890311, exact 461617703, residual 0, classes 1004580772 (with >= 2 d: 773818430), bound-check failures 0, elapsed 5400 s, ETA 4491 s
+2026-10-09 04:03:58 worker 8 progress: units 147/185 (79.46%), d processed 12958338521, bound 1018558596, exact 464551952, residual 0, classes 2095907186 (with >= 2 d: 1739953345), bound-check failures 0, elapsed 6000 s, ETA 1551 s
+2026-10-09 04:13:03 worker 8 finished: units 185/185 (100.00%), d processed 16126580132, bound 1404527525, exact 467295112, residual 0, classes 2990742518 (with >= 2 d: 2634788677), bound-check failures 0, elapsed 6545 s, ETA 0 s

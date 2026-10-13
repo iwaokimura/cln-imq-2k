@@ -1,0 +1,27 @@
+# python3 -I mj_completeness.py DATADIR 5   (2026-10-11, 50 s on 12 processes)
+# negative test: cl4mod16.0.gz with one line deleted -> entries 13599104 vs 13599105, bad 2773083: FAIL
+cl3mod8.0: entries 27198197, fundamental in range 27198197, bad 0: OK
+cl7mod8.0: entries 27198208, fundamental in range 27198208, bad 0: OK
+cl4mod16.0: entries 13599105, fundamental in range 13599105, bad 0: OK
+cl8mod16.0: entries 13599124, fundamental in range 13599124, bad 0: OK
+cl3mod8.1: entries 27198193, fundamental in range 27198193, bad 0: OK
+cl7mod8.1: entries 27198201, fundamental in range 27198201, bad 0: OK
+cl4mod16.1: entries 13599109, fundamental in range 13599109, bad 0: OK
+cl8mod16.1: entries 13599079, fundamental in range 13599079, bad 0: OK
+cl3mod8.2: entries 27198194, fundamental in range 27198194, bad 0: OK
+cl7mod8.2: entries 27198181, fundamental in range 27198181, bad 0: OK
+cl4mod16.2: entries 13599080, fundamental in range 13599080, bad 0: OK
+cl8mod16.2: entries 13599087, fundamental in range 13599087, bad 0: OK
+cl3mod8.3: entries 27198189, fundamental in range 27198189, bad 0: OK
+cl7mod8.3: entries 27198249, fundamental in range 27198249, bad 0: OK
+cl4mod16.3: entries 13599075, fundamental in range 13599075, bad 0: OK
+cl8mod16.3: entries 13599133, fundamental in range 13599133, bad 0: OK
+cl3mod8.4: entries 27198236, fundamental in range 27198236, bad 0: OK
+cl7mod8.4: entries 27198153, fundamental in range 27198153, bad 0: OK
+cl4mod16.4: entries 13599131, fundamental in range 13599131, bad 0: OK
+cl8mod16.4: entries 13599091, fundamental in range 13599091, bad 0: OK
+cl3mod8.5: entries 27198198, fundamental in range 27198198, bad 0: OK
+cl7mod8.5: entries 27198185, fundamental in range 27198185, bad 0: OK
+cl4mod16.5: entries 13599120, fundamental in range 13599120, bad 0: OK
+cl8mod16.5: entries 13599082, fundamental in range 13599082, bad 0: OK
+ALL FILES COMPLETE

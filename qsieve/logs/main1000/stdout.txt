@@ -1,0 +1,6 @@
+MAIN START
+qsieve: N = 1000, d in [1099511627776, 260000000000000], 12 processes, log interval 600 s, 5336 work units, outdir runs/main1000, mask AVX-512
+qsieve: all workers finished in 11118.1 s, failed workers: 0
+POSTPROC DONE: residual 0, fundamental 0, found h <= 1000: 0
+2026年 10月  9日 金曜日 07:21:08 JST
+RUN1000 DONE

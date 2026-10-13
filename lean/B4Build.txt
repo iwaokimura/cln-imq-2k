@@ -1,0 +1,57 @@
+# lake build, 2026-10-13, Lean 4.34.1, Mathlib d13f23b (lakefile.lean); 12 cores. This run rebuilt the B4 files only (the full build from scratch, same day, took 18 min, exit 0). Axioms of the B4 declarations (#print axioms in the files).
+warning: B4QuadSplit.lean:77:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+warning: B4QuadSplit.lean:211:0: automatically included section variable(s) unused in theorem `B4.CNF.absNorm_prod_of_subset`:
+warning: B4QuadZeta.lean:100:67: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:183:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:183:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: B4QuadZeta.lean:187:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: B4QuadZeta.lean:187:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: B4QuadZeta.lean:261:26: This simp argument is unused:
+info: B4ExplicitBias.lean:111:0: 'B4.explicit_split_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:194:0: 'B4.mertens_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:195:0: 'B4.ramified_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4PrimeMass.lean:196:0: 'B4.total_mass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ZetaEM.lean:73:0: 'B4.zeta_EM_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ZetaEM.lean:168:0: 'B4.zeta_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ZetaEM.lean:169:0: 'B4.zeta_EM_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Analytic.lean:312:0: 'B4.gamma_term_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Analytic.lean:313:0: 'B4.neg_logDeriv_zeta_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:119:0: 'B4.differentiableOn_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:273:0: 'B4.LFunction_eq_contL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:274:0: 'B4.LFunction_sub_partial_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4LSeriesCont.lean:360:0: 'B4.LFunction_sub_partial_le_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4MasterAlgebra.lean:91:0: 'B4.master_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Sign.lean:87:0: 'B4.LFunction_nonneg_of_zero_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Hyperbola.lean:133:0: 'B4.hyperbola' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Hyperbola.lean:134:0: 'B4.one_le_re_S' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4L1.lean:133:0: 'B4.A_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4L1.lean:293:0: 'B4.B_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4L1.lean:294:0: 'B4.L1_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ZeroGap.lean:165:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_explicit_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ElementaryGap.lean:72:0: 'OAI.SiegelZeros.WeightedTorusJets.b4_elementary_zero_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Interval.lean:194:0: 'B4.core_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Interval.lean:234:0: 'B4.interval_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:167:0: 'B4.gapFrom_join' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:168:0: 'B4.gapOn_of_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chain.lean:169:0: 'B4.tail_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassBound.lean:304:0: 'B4.h_bound_of_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3178:0: 'B4.Cert.zero_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3179:0: 'B4.Cert.zero_gap_for_h1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Certificates.lean:3180:0: 'B4.Cert.zero_gap_for_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:236:0: 'B4.Chi8.re_LFunction_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:237:0: 'B4.Chi8.zero_gap_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:238:0: 'B4.Chi8.zero_gap_for_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4Chi8.lean:239:0: 'B4.Chi8.zero_gap_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:86:0: 'B4.ClassCert.class_bound_h100' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:154:0: 'B4.ClassCert.class_bound_h200' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:222:0: 'B4.ClassCert.class_bound_h500' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:290:0: 'B4.ClassCert.class_bound_h1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassCert.lean:358:0: 'B4.ClassCert.class_bound_h2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+warning: B4ClassNumber.lean:227:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+info: B4ClassNumber.lean:261:0: 'B4.ClassNumber.classNumber_gt_100' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:262:0: 'B4.ClassNumber.classNumber_gt_200' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:263:0: 'B4.ClassNumber.classNumber_gt_500' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:264:0: 'B4.ClassNumber.classNumber_gt_1000' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: B4ClassNumber.lean:265:0: 'B4.ClassNumber.classNumber_gt_2000' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9424 jobs).
+real	12m54.179s

@@ -1,0 +1,6 @@
+N = 100: eps <= 7.723209 e-4, lower bound 320.474171 vs N pi = 314.159265 (log margin 0.01990)
+N = 200: eps <= 7.646996 e-4, lower bound 648.291824 vs N pi = 628.318531 (log margin 0.03129)
+N = 500: eps <= 7.560904 e-4, lower bound 1585.388087 vs N pi = 1570.796327 (log margin 0.00925)
+N = 1000: eps <= 7.499412 e-4, lower bound 3217.038434 vs N pi = 3141.592654 (log margin 0.02373)
+N = 2000: eps <= 7.438923 e-4, lower bound 6752.213633 vs N pi = 6283.185307 (log margin 0.07199)
+LEAN H CERT DONE

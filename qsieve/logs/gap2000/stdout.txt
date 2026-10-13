@@ -1,0 +1,2 @@
+qsieve: N = 2000, d in [1610612736, 1099511627776], 188 processes, log interval 600 s, 13367 work units, outdir runs/gap2000, mask AVX-512
+qsieve: all workers finished in 3778.0 s, failed workers: 0

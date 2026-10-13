@@ -1,0 +1,12 @@
+2026-10-09 02:23:58 worker 4 start: units 0/185 (0.00%), d processed 0, bound 0, exact 0, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 0 s, ETA -1 s
+2026-10-09 02:33:59 worker 4 progress: units 22/185 (11.89%), d processed 190777273, bound 343462, exact 62303812, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 600 s, ETA 4449 s
+2026-10-09 02:43:59 worker 4 progress: units 31/185 (16.76%), d processed 454859537, bound 1127180, exact 124698257, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 1201 s, ETA 5965 s
+2026-10-09 02:53:58 worker 4 progress: units 37/185 (20.00%), d processed 851094177, bound 13907835, exact 183754674, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 1800 s, ETA 7200 s
+2026-10-09 03:03:58 worker 4 progress: units 43/185 (23.24%), d processed 1417992504, bound 29095194, exact 250522924, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 2400 s, ETA 7926 s
+2026-10-09 03:13:59 worker 4 progress: units 47/185 (25.41%), d processed 1984382410, bound 42988776, exact 312047184, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 3000 s, ETA 8809 s
+2026-10-09 03:23:59 worker 4 progress: units 51/185 (27.57%), d processed 2861722786, bound 68216322, exact 372596510, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 3600 s, ETA 9459 s
+2026-10-09 03:33:58 worker 4 progress: units 54/185 (29.19%), d processed 3743638749, bound 93789003, exact 431395247, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 4200 s, ETA 10189 s
+2026-10-09 03:43:58 worker 4 progress: units 71/185 (38.38%), d processed 8678437663, bound 454424487, exact 459698319, residual 0, classes 224601962 (with >= 2 d: 173008592), bound-check failures 0, elapsed 4800 s, ETA 7707 s
+2026-10-09 03:53:58 worker 4 progress: units 138/185 (74.59%), d processed 12124646495, bound 915280748, exact 463826290, residual 0, classes 1865383102 (with >= 2 d: 1507157298), bound-check failures 0, elapsed 5400 s, ETA 1839 s
+2026-10-09 04:03:58 worker 4 progress: units 179/185 (96.76%), d processed 15629483529, bound 1341172465, exact 466859145, residual 0, classes 2855287098 (with >= 2 d: 2497061294), bound-check failures 0, elapsed 6000 s, ETA 201 s
+2026-10-09 04:05:45 worker 4 finished: units 185/185 (100.00%), d processed 16182374515, bound 1412738568, exact 467365747, residual 0, classes 3011445118 (with >= 2 d: 2653219314), bound-check failures 0, elapsed 6106 s, ETA 0 s

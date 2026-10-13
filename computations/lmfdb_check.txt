@@ -1,0 +1,4 @@
+LMFDB nf_fields: imaginary quadratic fields with |D| <= 2250000: 683931
+pairs (d, h) with h <= 100, d <= 2250000: LMFDB 42271, GP 42271
+only in LMFDB: []  only in GP: []
+LMFDB CROSS-CHECK OK

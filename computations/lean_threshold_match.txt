@@ -1,0 +1,6 @@
+N =  100  T_N = 286787/10000 exp(T_N) = 2.851026 e12  covered up to 2.5600 e15  margin x897.9224  OK
+N =  200  T_N = 150729/5000  exp(T_N) = 1.236387 e13  covered up to 2.5600 e15  margin x207.0548  OK
+N =  500  T_N = 160029/5000  exp(T_N) = 7.942228 e13  covered up to 1.6500 e15  margin x20.7750  OK
+N = 1000  T_N = 334757/10000 exp(T_N) = 3.453916 e14  covered up to 1.6500 e15  margin x4.7772  OK
+N = 2000  T_N = 350131/10000 exp(T_N) = 1.606927 e15  covered up to 1.6500 e15  margin x1.0268  OK
+ALL THRESHOLDS COVERED

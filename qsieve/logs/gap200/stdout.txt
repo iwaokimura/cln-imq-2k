@@ -1,0 +1,5 @@
+start: 2026年 10月  8日 木曜日 19:56:22 JST
+qsieve: N = 200, d in [1610612736, 1099511627776], 12 processes, log interval 600 s, 2103 work units, outdir runs/gap200
+qsieve: all workers finished in 1006.8 s, failed workers: 0
+end: 2026年 10月  8日 木曜日 20:13:09 JST
+POSTPROC DONE: residual 0, fundamental 0, found h <= 200: 0

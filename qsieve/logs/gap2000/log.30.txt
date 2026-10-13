@@ -1,0 +1,7 @@
+2026-10-10 16:37:31 worker 30 start: units 0/71 (0.00%), d processed 0, bound 0, exact 0, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 0 s, ETA -1 s
+2026-10-10 16:47:33 worker 30 progress: units 40/71 (56.34%), d processed 64840663, bound 197534, exact 28175336, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 602 s, ETA 466 s
+2026-10-10 16:57:33 worker 30 progress: units 51/71 (71.83%), d processed 168091829, bound 1268550, exact 57630692, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 1201 s, ETA 471 s
+2026-10-10 17:07:32 worker 30 progress: units 59/71 (83.10%), d processed 357214873, bound 15811181, exact 86492927, residual 0, classes 0 (with >= 2 d: 0), bound-check failures 0, elapsed 1801 s, ETA 366 s
+2026-10-10 17:17:32 worker 30 progress: units 66/71 (92.96%), d processed 601440994, bound 48960180, exact 113217597, residual 0, classes 66048114 (with >= 2 d: 50876396), bound-check failures 0, elapsed 2400 s, ETA 182 s
+2026-10-10 17:27:32 worker 30 progress: units 69/71 (97.18%), d processed 872780705, bound 96944657, exact 138478862, residual 0, classes 167485000 (with >= 2 d: 140919426), bound-check failures 0, elapsed 3001 s, ETA 87 s
+2026-10-10 17:34:42 worker 30 finished: units 71/71 (100.00%), d processed 1093366968, bound 148680459, exact 156112428, residual 0, classes 229787250 (with >= 2 d: 203221676), bound-check failures 0, elapsed 3431 s, ETA 0 s

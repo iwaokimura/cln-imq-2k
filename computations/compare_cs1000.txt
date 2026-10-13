@@ -1,0 +1,17 @@
+ours: 4115897 fundamental |D0| with h <= 1000, max 227932027
+Cremona-Sutherland: 6450424 |D| with h <= 1000, max 227932027 (h = 996)
+generated from ours: 6450424 |D| with h <= 1000, of which 4115897 fundamental
+only in ours: 0 []
+only in Cremona-Sutherland: 0 []
+class number differs: 0 []
+fundamental entries of Cremona-Sutherland (= our list): 4115897
+#S_1 = 13 (C-S), 13 (ours)
+#S_2 = 29 (C-S), 29 (ours)
+#S_100 = 2311 (C-S), 2311 (ours)
+#S_400 = 22366 (C-S), 22366 (ours)
+#S_425 = 956 (C-S), 956 (ours)
+#S_450 = 6745 (C-S), 6745 (ours)
+#S_475 = 1065 (C-S), 1065 (ours)
+#S_500 = 10458 (C-S), 10458 (ours)
+#S_1000 = 37678 (C-S), 37678 (ours)
+CS1000 COMPARE PASS
