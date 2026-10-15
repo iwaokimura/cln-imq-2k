@@ -1,0 +1,2 @@
+entries checked: 2000, largest d: 628220443, mismatches: 0
+RESULT: PASS

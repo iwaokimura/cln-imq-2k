@@ -10,8 +10,8 @@ file give the command). The scripts need PARI/GP and Python 3.
 |---|---|---|
 | `effective_c2.gp` | functions for the explicit bound of (1-β) log q; read by the next three scripts | |
 | `certify_c2.gp`, `.txt` | certified constants with the bounds of Rosser and Schoenfeld | Remark after Proposition 6 |
-| `certify_c2_lean.gp`, `.txt` | the same for exactly the statement proved in Lean | Remark after Proposition 6 |
-| `lean_grid.gp`, `.txt` | the 314 intervals of the proof of Theorem 1, their parameters and constants; writes `../lean/B4Certificates.lean` | proof of Theorem 1, Section 7 |
+| `certify_c2_lean.gp`, `.txt` | the same for exactly the statement proved in Lean | |
+| `lean_grid.gp`, `.txt` | the 314 intervals of the proof of Theorem 1, their parameters and constants; writes `../lean/B4Certificates.lean` | proof of Theorem 1, Remark after Proposition 6, Section 7 |
 | `lean_h_cert.gp`, `.txt` | the numerical step of Proposition 9 for each N; writes `../lean/B4ClassCert.lean` | Section 3, Section 7 |
 
 `lean_grid.gp` and `lean_h_cert.gp` generate Lean files. The Lean kernel checks those files, so the
@@ -33,6 +33,8 @@ SHA-256 checksums of the 24 files we used.
 | `h_table.sh` | the per-h table of a list: h, the number of fields, the largest \|d\| |
 | `h1000_table.txt`, `h2000_table.txt` | its output for the two lists |
 | `watkins_table4.gp`, `.txt` | recomputes Watkins' Table 4 (h ≤ 100) and compares; writes `watkins_table4_computed.txt` and `watkins_h100_list.txt` |
+| `random_check_h2000_sample.py` | draws 2000 random entries with 1000 < h ≤ 2000 from `../lists/imq_h2000.txt.xz` (fixed seed): `python3 -I random_check_h2000_sample.py ../lists/imq_h2000.txt.xz random_check_h2000_sample.txt` |
+| `random_check_h2000.gp`, `.txt` | checks them with `isfundamental` and `qfbclassno` (check (b) of Section 4) |
 
 ## The sieve and the Lean thresholds (Section 5)
 
