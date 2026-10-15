@@ -1,3 +1,5 @@
+SHA-256 of cmdiscs1000.txt: 87cbc9f50edd5192a820bcffd381e274b0b4e6cb3955e6637a0abaaf22eafa3c
+SHA-256 of the uncompressed list: 075a201c8e7cce6c0b6013423a5d96c6308452afab2fa79882388fc46d8b0c45
 ours: 4115897 fundamental |D0| with h <= 1000, max 227932027
 Cremona-Sutherland: 6450424 |D| with h <= 1000, max 227932027 (h = 996)
 generated from ours: 6450424 |D| with h <= 1000, of which 4115897 fundamental

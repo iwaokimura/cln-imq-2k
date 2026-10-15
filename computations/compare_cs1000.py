@@ -11,7 +11,11 @@ with [O_K^x : O^x] = 3 (D0 = -3), 2 (D0 = -4), 1 otherwise (f >= 2), and compare
 fields of our list with h <= 1000.
 
 Usage: python3 -I compare_cs1000.py OUR_LIST.txt.xz cmdiscs1000.txt
+
+The output records the SHA-256 of cmdiscs1000.txt and of the uncompressed list. We used cmdiscs1000.txt
+from https://github.com/AndrewVSutherland/EndECNF at commit 1cbb56fc2d973227e4309e90dd510689ae7d19d7.
 """
+import hashlib
 import lzma
 import sys
 from fractions import Fraction
@@ -57,6 +61,14 @@ def phi(m, ps):
     return r
 
 
+def sha256(path, opener=open):
+    h = hashlib.sha256()
+    with opener(path, "rb") as fh:
+        for chunk in iter(lambda: fh.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
 def read_ours(path):
     fund = {}
     with lzma.open(path, "rt") as fh:
@@ -84,6 +96,8 @@ def read_cs(path):
 
 def run():
     ours_path, cs_path = sys.argv[1], sys.argv[2]
+    print(f"SHA-256 of cmdiscs1000.txt: {sha256(cs_path)}")
+    print(f"SHA-256 of the uncompressed list: {sha256(ours_path, lzma.open)}")
     fund = read_ours(ours_path)
     cs = read_cs(cs_path)
     print(f"ours: {len(fund)} fundamental |D0| with h <= {HMAX}, max {max(fund)}")

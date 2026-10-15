@@ -1,6 +1,6 @@
 \\ Check (b) of the paper, Section "Small discriminants": the sampled entries "d h" with
 \\ 1000 < h <= 2000 (random_check_h2000_sample.txt, made by random_check_h2000_sample.py) satisfy
-\\ isfundamental(-d) and qfbclassno(-d) == h. qfbclassno is proved correct for |D| < 2*10^10 (PARI
+\\ isfundamental(-d) and qfbclassno(-d) == h. qfbclassno is documented as correct for |D| < 2*10^10 (PARI
 \\ manual), and every d here is below 2^30.
 \\ Run from computations/:  gp -q -f random_check_h2000.gp < /dev/null > random_check_h2000.txt
 

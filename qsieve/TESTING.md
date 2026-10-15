@@ -1,7 +1,12 @@
 # qsieve: build, tests, measurements
 
-Results are conditional on [SZ] only through the choice of the range bound D(N). The sieve and the
-post-processing themselves are unconditional.
+The sieve and the post-processing are unconditional computations and do not depend on [SZ]. The paper
+takes the upper end of the sieved range from the Lean theorem `classNumber_gt_2000` (paper, Theorem 10):
+e^{T_2000} ≈ 1.607·10^15 < 1.65·10^15, the end of the N = 2000 runs (last section).
+
+This file is a chronological record. The earlier sections use range bounds D(N), D_A(N) that were derived
+from the text of [SZ] during the development; they are historical and are not used in the paper, and the
+remarks "conditional on [SZ]" there refer to them.
 
 Notation of the paper (Section "The sieve") versus this file and the code: the blocks of 35 primes are
 G_j in the paper; the set of primes P, P_0 is \mathcal P, \mathcal P_0; the bound B of the closed-form
@@ -165,7 +170,7 @@ QS_DIR=runs/main200 QS_N=200 QS_NPROC=12 gp -q postproc.gp < /dev/null
 - Exact passes 0, residual 0, bound-check failures 0. `postproc.gp`: **found h ≤ 200: 0**.
 - **Result** (unconditional, as a computation): no imaginary quadratic field with discriminant −d,
   2^40 ≤ d ≤ 2.56·10^15, has h(−d) ≤ 200.
-- **Combined with [SZ]**: D_A(200) = 8.19·10^12 lies in this range, so, conditional on [SZ], every
+- **Combined with [SZ]** (historical, see the top of this file): D_A(200) = 8.19·10^12 lies in this range, so, conditional on [SZ], every
   field with h ≤ 200 has d < 2^40.
 
 ## Gap run N = 200 below 2^40 (2026-10-08)
@@ -402,8 +407,8 @@ Mask implementation AVX-512 in both runs. Worker logs are in `logs/gap1000/` and
   were accurate (1.86 h and 3.09 h).
 - **Result (unconditional, as a computation):** no imaginary quadratic field with
   6·2^28 ≤ d ≤ 2.6·10^14 has h(−d) ≤ 1000. Since D_A(1000) = 2.574·10^14, together with [SZ]
-  and the tables this gave the list for h ≤ 1000, conditional on [SZ]. (The paper replaces [SZ]
-  by the Lean theorem.)
+  and the tables this gave the list for h ≤ 1000, conditional on [SZ] (historical, see the top of
+  this file). (The paper replaces [SZ] by the Lean theorem.)
 - Final list: `../computations/mj_extract.py DATADIR 1000 5 OUT` gives 4,115,897 fields (identical to
   the preliminary extraction), largest |d| = 227,932,027 (h = 996). Its h ≤ 100 part equals
   `watkins_h100_list.txt`, and its h ≤ 200 part equals `mj_h200_list.txt`. 2000 random entries with
