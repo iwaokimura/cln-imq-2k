@@ -1,7 +1,7 @@
 # Imaginary quadratic fields of class number at most 2000
 
 Code, formal proofs and data for the paper *Imaginary quadratic fields of class number at most 2000* by
-Iwao Kimura (arXiv: to be added).
+Iwao Kimura, [arXiv:2610.21511](https://arxiv.org/abs/2610.21511) [math.NT].
 
 The paper determines all imaginary quadratic fields with class number h ≤ 2000, without assuming any
 Riemann hypothesis. There are 16,453,493 of them, and the largest |d| is 1,062,350,083.
