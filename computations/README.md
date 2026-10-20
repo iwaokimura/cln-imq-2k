@@ -13,6 +13,7 @@ file give the command). The scripts need PARI/GP and Python 3.
 | `certify_c2_lean.gp`, `.txt` | the same for exactly the statement proved in Lean | |
 | `lean_grid.gp`, `.txt` | the 314 intervals of the proof of Theorem 1, their parameters and constants; writes `../lean/B4Certificates.lean` | proof of Theorem 1, Remark after Proposition 6, Section 7 |
 | `lean_h_cert.gp`, `.txt` | the numerical step of Proposition 9 for each N; writes `../lean/B4ClassCert.lean` | Section 3, Section 7 |
+| `qrh_cert.gp`, `.txt` | Proposition 9 under a zero-free half-plane Re s > 31/32 (h > 2000 for log d ≥ 27.2, h > 10^5 for log d ≥ 35.4) | Remark after Theorem 10 |
 
 `lean_grid.gp` and `lean_h_cert.gp` generate Lean files. The Lean kernel checks those files, so the
 generators play no role in their correctness. `lean_grid.gp` also writes `lean_grid_c.gp` (grid data, not
