@@ -1,0 +1,8 @@
+# python3 -I compare_gglm2000.py classes-list-2000.txt ../lists/imq_h2000.txt.xz  (run 2026-10-22)
+# classes-list-2000.txt: https://sites.unimi.it/molteni/research/class_numbers/classes-list-2000.txt, downloaded 2026-10-22
+sha256 of classes-list-2000.txt 2900aabef20e51511cbe0cbb1c7519f6788dfbd9a17b172626dcee70b302cb12
+gglm pairs 16453493 max d 1062350083
+ours lines 16453493
+sha256 gglm 07100ea3589ab2b490122fa69b438cd5393bdcd2e547dfc29bb3b5c86f9f24c0
+sha256 ours 07100ea3589ab2b490122fa69b438cd5393bdcd2e547dfc29bb3b5c86f9f24c0
+IDENTICAL

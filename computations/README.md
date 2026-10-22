@@ -54,3 +54,4 @@ data are not included.
 | `lmfdb_check.py`, `.txt` | the LMFDB (h ≤ 100) |
 | `compare_cs1000.py`, `.txt` | Cremona–Sutherland (h ≤ 1000) |
 | `compare_hk2000.sh`, `.txt` | Holmin–Jones–Kurlberg–McLeman–Petersen (odd h ≤ 1999) |
+| `compare_gglm2000.py`, `.txt` | Garcia–Grenié–Lee–Molteni (h ≤ 2000): `python3 -I compare_gglm2000.py classes-list-2000.txt ../lists/imq_h2000.txt.xz`, the first file from https://sites.unimi.it/molteni/research/class_numbers/ |
