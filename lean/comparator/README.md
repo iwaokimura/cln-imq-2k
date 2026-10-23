@@ -24,7 +24,7 @@ Comparator needs three tools, and a fourth for the nanoda check. Versions we use
 |---|---|
 | [comparator](https://github.com/leanprover/comparator) | commit `d03acab` |
 | [lean4export](https://github.com/leanprover/lean4export) | commit `076e8e5` |
-| [landrun](https://github.com/Zouuup/landrun) | v0.1.18 |
+| [landrun](https://github.com/Zouuup/landrun) | commit `811cfff` (v0.1.17 + 4 commits; `landrun --version` prints 0.1.18, but there is no tag v0.1.18 upstream) |
 | [nanoda_lib](https://github.com/ammkrn/nanoda_lib) | commit `3a24072` |
 
 Build comparator and lean4export with `lake build`, nanoda with `cargo build --release`, and landrun with

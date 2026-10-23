@@ -1,4 +1,4 @@
-# Comparator runs, 2026-10-13, in this project (comparator d03acab, lean4export 076e8e5, landrun v0.1.18, nanoda_lib 3a24072).
+# Comparator runs, 2026-10-13, in this project (comparator d03acab, lean4export 076e8e5, landrun 811cfff (prints version 0.1.18; no such tag upstream), nanoda_lib 3a24072).
 # Long 'Exporting' lines and build progress lines are omitted.
 
 ## B4ZeroGap_nanoda
